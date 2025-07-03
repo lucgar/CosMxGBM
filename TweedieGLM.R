@@ -8,7 +8,7 @@ library(statmod)
 library(tweedie)
 library(corrplot)
 
-load("RData/Rebuttal250121/CosMx1k6k_input_TweedieGLM.RData", verbose = T)
+load("CosMx1k6k_input_TweedieGLM.RData", verbose = T)
 
 #### Identities
 mData <- mDataIdent %>%
